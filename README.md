@@ -89,7 +89,7 @@ vel[i] += direction * strength
 - `BOUNCE_COEF`：反弹系数
 
 ### 演示效果
-![实验0演示](demo_work0.gif)
+![实验0演示](demos/demo_work0.gif)
 
 *演示动画展示了粒子群对鼠标引力的响应行为*
 
@@ -175,6 +175,10 @@ uv run python src/Work02/main.py
 3. 投影变换：透视投影到标准设备坐标系(NDC)
 4. 透视除法：齐次坐标除以w分量
 5. 视口变换：NDC坐标映射到屏幕坐标[0, 1]
+
+### 演示效果
+
+![实验2演示](demos/demo_work02.gif)
 
 ### 开发笔记
 #### 关键实现
